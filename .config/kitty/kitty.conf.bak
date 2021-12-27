@@ -1,4 +1,5 @@
 # BEGIN_KITTY_THEME
-# Solarized Dark
+# Solarized Dark Higher Contrast
 include current-theme.conf
+include other.conf
 # END_KITTY_THEME

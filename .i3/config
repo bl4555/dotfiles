@@ -47,14 +47,14 @@ bindsym $mod+Return exec --no-startup-id kitty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher).
-bindsym $mod+d exec --no-startup-id "rofi -show combi -combi-modi 'drun,ssh,window' -modi combi"  
+bindsym $mod+d exec --no-startup-id "rofi -theme $HOME/.config/rofi/rofi.rasi -show combi -combi-modi 'drun,ssh,window' -modi combi"  
 
 # Display Wallpaper, always.
 exec_always --no-startup-id feh --bg-fill $HOME/wall.png
 
 # Provide Gaps to Windows. Increase/Decrease as you like.
-gaps inner 5
-gaps outer 5
+gaps inner 20
+gaps outer 20
 
 exec --no-startup-id nextcloud
 exec --no-startup-id discord
